@@ -1,13 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testrepo</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Form creating</title>
 </head>
-<h1>Hello in my test repo</h1>
-<p>I hope that you will enjoy my first this simple reposit</p>
+
 <body>
-    
+    <fieldset>
+        <legend> My Sumbission Form</legend>
+        <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+            <label for="first_name_feild"> First Name: </label>
+            <input id="first_name_feild" name="first_name" type="text" placeholder="Enter your first name">
+
+            <label for="last_name_feild"> Last Name: </label>
+            <input id="last_name_feild" type="text" placeholder="Enter your last name">
+
+            <label for="phone_feild"> Phone: </label>
+            <input id="phone_feild" type="text" placeholder="05******">
+
+            <label for="email_feild"> Email: </label>
+            <input id="email_feild" type="text" placeholder="example@.com">
+            <div>
+                <label class="G">Gender: </label>
+                <label class="gender_field">Male<input type="radio" name="gender_field" value="M"></label>
+                <label class="gender_field">Female<input type="radio" name="gender_field" value="F"></label>
+            </div>
+    </fieldset>
+
+
+    <div>
+        <label class="days">Available days: </label>
+        <label>Sunday<input type="checkbox" name="days_field" value="S"></label>
+        <label>Monday<input type="checkbox" name="days_field" value="M"></label>
+        <label>Tuesday<input type="checkbox" name="days_field" value="T"></label>
+        <label>Wednesday<input type="checkbox" name="days_field" value="W"></label>
+
+    </div>
+    <label class="age"> AGE: </label>
+    <select name=" menu-field">
+        <option value="A"> Select </option>
+        <option value="B"> 18 </option>
+        <option value="B"> 19 </option>
+        <option value="B"> 20</option>
+    </select>
+    <label class="Comments" for="comments_feild"> Comments </label>
+    <textarea id="comments_feild" rows="6" cols="10" placeholder="Enter your comment here"></textarea>
+    <input type="hidden" name="hidden_field" value="12345">
+    <div>
+        <input class="button" type="submit" value="Sumbit now!">
+    </div>
+
+
+
+
+
+
+    </form>
+
 </body>
+
 </html>

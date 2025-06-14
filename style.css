@@ -1,0 +1,49 @@
+fieldset{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+     
+}
+label {
+    display:block;
+}
+input{
+    margin-bottom: 10px;
+}
+
+label.gender_field{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+label.G{
+    font-weight: bold;
+}
+label.days{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+   
+}
+label.age{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-bottom: 5px;
+}
+meny_field{
+    margin-bottom: 10px;
+}
+label.Comments{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+textarea{
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
