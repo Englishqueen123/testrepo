@@ -9,9 +9,10 @@
 </head>
 
 <body>
+    <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
     <fieldset>
         <legend> My Sumbission Form</legend>
-        <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
+        
             <label for="first_name_feild"> First Name: </label>
             <input id="first_name_feild" name="first_name" type="text" placeholder="Enter your first name">
 
@@ -39,6 +40,7 @@
         <label>Wednesday<input type="checkbox" name="days_field" value="W"></label>
 
     </div>
+
     <label class="age"> AGE: </label>
     <select name=" menu-field">
         <option value="A"> Select </option>
@@ -46,20 +48,13 @@
         <option value="B"> 19 </option>
         <option value="B"> 20</option>
     </select>
+
     <label class="Comments" for="comments_feild"> Comments </label>
     <textarea id="comments_feild" rows="6" cols="10" placeholder="Enter your comment here"></textarea>
     <input type="hidden" name="hidden_field" value="12345">
     <div>
         <input class="button" type="submit" value="Sumbit now!">
     </div>
-
-
-
-
-
-
     </form>
-
 </body>
-
 </html>
